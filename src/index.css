@@ -1,0 +1,22 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+@import "tailwindcss";
+
+
+
+.css_mtop{
+  margin-top: 150px;
+}
+.control-btn {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
