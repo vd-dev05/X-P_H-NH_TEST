@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-
+          
+          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY  }}
           publish_dir: ./dist
           exclude_assets: .nojekyll,.gitignore,README.md,tailwind.config.js,vite.config.js,postcss.config.js,package.json,package-lock.json,src
