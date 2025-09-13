@@ -8,8 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  server: {
-    open: true,
-    
-  },
+ preview: {
+    port: 10000,
+    host: '0.0.0.0',
+    allowedHosts: ['x-p-h-nh-test.onrender.com']
+  }
 })
